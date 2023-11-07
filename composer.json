@@ -1,0 +1,29 @@
+{
+    "name": "ridwan/chat-gpt-interaction",
+    "description": "Simple API interaction with ChatGPT",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ridwan\\ChatGPTIntegration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ridwanur Khan",
+            "email": "rahmankhan1607@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "openai-php/client": "dev-main",
+        "symfony/http-client": "6.4.x-dev",
+        "nyholm/psr7": "^1.8@dev"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+    
+}
